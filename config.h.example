@@ -1,0 +1,19 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// ========== WiFi 配置 ==========
+const char* WIFI_SSID     = "你的WiFi名称";
+const char* WIFI_PASSWORD = "你的WiFi密码";
+
+// ========== ThingSpeak 配置 ==========
+const String THINGSPEAK_API_KEY = "你的API密钥";
+const String THINGSPEAK_URL     = "https://api.thingspeak.com/update";
+
+// ========== 传感器 & 功能参数 ==========
+#define DHT_PIN     4
+#define DHT_TYPE    DHT11
+
+// 数据上传间隔 单位：毫秒 (5分钟 = 300000)
+const unsigned long SEND_INTERVAL = 300000;
+
+#endif

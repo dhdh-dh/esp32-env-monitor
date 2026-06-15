@@ -1,0 +1,45 @@
+# 编译生成的文件
+*.hex
+*.bin
+*.elf
+*.o
+*.obj
+*.d
+*.eep
+*.map
+*.lst
+*.sym
+*.lss
+
+# 编译输出目录
+build/
+out/
+Debug/
+Release/
+
+# Arduino IDE 临时文件
+*.tmp
+*.bak
+*.swp
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 敏感配置文件（如果用了单独的配置文件）
+config.h
+secrets.h
+credentials.h
+.env
+
+# IDE 配置文件
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.vcxproj
+
+# Arduino 缓存目录
+.cache/
